@@ -5,6 +5,7 @@ body{
     align-items: center;
     color: hsl(215, 51%, 70%);
     font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
 }
 main{
     display: flex;
@@ -16,7 +17,7 @@ main{
     height: 550px;
     border-radius: 10px;
     margin-top: 30px;
-    box-shadow: 0 0 12px 7px black;
+    box-shadow: 12px 7px 20px 6px rgba(0, 0, 0, 0.3);
 }
 h2{
     color: hsl(0, 0%, 100%);
@@ -38,7 +39,7 @@ h2{
     background-color: hsl(178, 100%, 50%, 0.5);
     border-radius: 10px;
     position: absolute;
-    top: 7%;
+    top: 13%;
     display: none;
 }
 .main-pic:hover + .view-icon {
